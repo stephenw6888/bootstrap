@@ -13,26 +13,125 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .row {
+            margin-bottom: 20px;
+        }
+        
+        .row .row {
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+        
+        [class*="col-"] {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #eee;
+            background-color: rgba(86, 61, 124, .15);
+            border: 100px solid #ddd;
+            border: 5px solid rgba(86, 61, 124, .2);
+        }
+    </style>
 </head>
+<ul class="nav nav-pills">
+    <li role="presentation" class="active"><a href="#">Software Wars</a></li>
+    <li role="presentation" class="active"><a href="#">Code-A-Long</a></li>
+    <li role="presentation" class="active"><a href="#">Classes of Softwares</a></li>
+    <li role="presentation" class="active"><a href="#">Need Support?</a></li>
+</ul>
 
 <body>
-    <nav class="navbar navbar-default"> </nav>
+    <nav class="navbar navbar-default">
+        <button type="button" class="btn btn-default navbar-btn">Sign In</button>
+        <button type="button" class="btn btn-default navbar-btn">Log In</button>
+        <ul class="nav nav-pills" role="tablist">
+            <li role="presentation" class="active"><a href="#">Home <span class="badge">0</span></a></li>
+            <li role="presentation"><a href="#">Work Space</a></li>
+            <li role="presentation"><a href="#">Messages <span class="badge">0</span></a></li>
+        </ul>
+        <li role="presentation" class="dropdown">
+            <span class="glyphicon glyphicon-qrcode">QR.Codes</span>
+            <span class="glyphicon glyphicon-lock">Protect&Serve</span>
+            <span class="glyphicon glyphicon-cog">Settings</span>
+            <span class="glyphicon glyphicon-download-alt">Saving</span>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Software Coding <span class="caret"></span>
+      
+    </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">History of Coding</a></li><br>
+                <li><a href="#">Softwares</a></li><br>
+                <li><a href="#">Students Project</a></li><br>
+                <li><a href="#">Students Homework</a></li><br>
+            </ul>
+        </li>
+
+        </ul>
+    </nav>
     <div class="container">
-        <div class="div1">
-            <div class="col-3-sm">
-                
+        <div class="panel panel-default">
+            <div class="panel-heading">Announcement</div>
+            <div class="panel-body">
+                Students of 2017 shall be taking a trip to RIT (Rochester Institute of Technolgy!)
             </div>
-            
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                Software Wars!<small> Play against people real time to compete for software points!</small>
+            </div>
+
+            <div class="col-sm-3">
+                Code-A-Long!<small> Learn to code with professional and students all over the world!</small>
+            </div>
+
+            <div class="col-sm-3">
+                Classes of Softwares!<small> What type of software are there in coding? There are tons to learn!</small>
+            </div>
+            <div class="col-sm-3">
+                Need Support?<small> Any comments questions or concern about coding? You can look below for some help!</small>
+            </div>
+
         </div>
     </div>
-    <div class="jumbotron">
-        <h1>Welcome to the Steve Software Show!</h1>
-        <p>You can enjoy all the fun with justy your computer and software with your hearts desire</p>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Welcome to the Steve Software Show!</h1>
+            <p>You can enjoy all the fun with justy your computer and software with your hearts desire.</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Click to Watch!</a></p>
+            </div>
+            <div class="jumbotron">
+            <h1>Welcome to the Software Wars!</h1>
+            <p>We many people around this site, there will be those who want to challenge others to a war with code. Many different genre include commanding an army though codes. Typing out words and sentences. Creatiing a websites and more to come!</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Click to Play!</a></p>
+        </div>
+        <div class="jumbotron">
+            <h1>Welcome to the Group Channel!</h1>
+            <p>Do you want to learn about software with others? Yes you can!You can click the button below to learn with students and professional!</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Click for a Lesson!</a></p>
+        </div>
+        <div class="jumbotron">
+            <h1>Welcome to the Learning Channel!</h1>
+            <p>How many classes of software in technology are there? Well, here we can answer that with some answer here!</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Click to Learn!</a></p>
+        </div>
+        <div class="jumbotron">
+            <h1>Welcome to the Support Channel!</h1>
+            <p>Softwares and Coding can be hard, so the staffs and I are prepared to help assist you in any needs or concern about software!</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Click for Questions!</a></p>
+        </div>
+
+        <div class="container">
+
+            <ul class="lg">
+                <li class="lgs">HTML</li>
+                <li class="lgs">CSS</li>
+                <li class="lgs">jQuery</li>
+                <li class="lgs">Bootstrap</li>
+                <li class="lgs">Java</li>
+            </ul>
+        </div>
     </div>
-    <div class="page-header1">
-        <h1>Software War!<small> Play against people real time to compete for software points!</small></small>
-        </h1>
-    </div>
+
 </body>
 
 </html>
